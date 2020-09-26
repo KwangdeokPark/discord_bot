@@ -3112,8 +3112,8 @@ class IlsangDistributionBot(commands.AutoShardedBot):
 
 	async def on_message(self, msg):
 		await self.wait_until_ready()
-		if msg.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
-			return None #동작하지 않고 무시합니다.
+		#if msg.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
+			#return None #동작하지 않고 무시합니다.
 
 		ori_msg = msg
 
